@@ -1,0 +1,170 @@
+body, h1,h2,h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #2D4263;
+    border-bottom: 5px solid coral;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: #C84B31;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline; 
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: #C84B31;
+} 
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+    height: 55vh;
+    background-image: url( images/alin-rusu-Su-hFmcxZY8-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 180px;
+}
+
+#newsletter {
+    background-color: #2D4263;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0 ;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#newsletter .left {
+    float: left;
+}
+
+
+#newsletter .right {
+    float: right;
+}
+
+#newsletter input {
+    padding: 9px;
+}
+
+.button {
+    padding: 10px;
+    background-color: coral;
+    border: none;
+    color: #fff;
+}
+
+#courses {
+    padding: 30px 0;
+}
+
+.box{
+    width: 33.2%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box img {
+    max-width: 100%;
+    width: 110px;
+}
+
+#footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+.clr {
+    clear: both;
+}
+
+
+#about-us {
+    margin: 40px 0px;
+    font-family: sans-serif;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+
+.sidebar {
+    width: 30%;
+    float: right ;
+}
+
+.bg-dark{
+    background-color: #2D4263;
+    color: #fff;
+    padding: 15px;
+}
+
+
+.servise-box {
+    padding: 30px;
+    margin: 15px 0; 
+    background-color: #e6e6e6;
+    border: 1px solid #555;
+}
+
+label {
+    display: block;
+    margin: 10px 5px;
+}
+
+.form-input, textarea {
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+.active {
+    color: coral ! important;
+}
+
+
+
+
